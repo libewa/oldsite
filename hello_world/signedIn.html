@@ -3,18 +3,19 @@
 <html>
 	<head>
 		<title>Erfolgreich eingeloggt</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
 		<meta author="Linus Benjamin Warnatz">
 		<link rel="stylesheet" href="../style.css" type="text/css" />
 	</head>
 	<body>
-		<?php
+		<script type="text/php">
 			$to = "##mail##";
 			$title = "Dein Account wurde erstellt";
-			$from = "Absender: linus.warnatz@icloud.com";
+			$from = "linus.warnatz@icloud.com";
 			$text = "Hallo ##name##, \n dein Account wurde erfolgreich erstellt"
 			mail($to, $title, $text, $from);
-		?>
+		</script>
 		 Dein Account wurde erfolgreich erstellt!
 		 <a href="index.html">Zurück</a>
 	</body>
