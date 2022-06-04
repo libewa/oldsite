@@ -1,30 +1,71 @@
-body {
-	font-family: sans-serif;
-	background-color: rgb(#00E7FF);
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Arial', 'Calibri';
-}
 .src {
-	font-family: monospace;
 	font-size: 8px;
 }
-div.size {
-	@media only screen and (max-width: 450px) {
-		div.size {
-			display: none;
-		}
-	};
-	@media only screen and (min-width: 450px) {
-		div.size {
-			width: 100%;
-			height: auto;
-		}
+@media only screen and (max-width: 450px) {
+	div.size {
+		display: none
 	}
-	@media only screen and (min-width: 750px) {
-		div.size {
-			width: 75%;
-			height: auto;
-		}
+}
+@media only screen and (min-width: 450px) {
+	div.size {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 750px) {
+	div.size {
+		width: 50%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	img {
+		display: none
+	}
+}
+@media only screen and (min-width: 450px) {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 750px) {
+	img {
+		width: 50%;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	iframe.size {
+		display: none
+	}
+}
+@media only screen and (min-width: 450px) {
+	iframe.size {
+		width: 100%;
+		height: auto;
+	}
+}
+@media only screen and (min-width: 750px) {
+	iframe.size {
+		width: 50%;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#eios {
+		display: none
+	}
+}
+@media only screen and (max-width: 500px) {
+	#eios_replace {
+		display: 100%
+	}
+}
+@media only screen and (min-width: 500px) {
+	#eios_replace {
+		display: none
 	}
 }

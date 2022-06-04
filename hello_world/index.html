@@ -2,49 +2,30 @@
 <html lang="de">
 	<head>
 		<title>Meine erste Seite</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8">
 		<meta author="Linus Benjamin Warnatz">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../style.css" type="text/css" />
-		<link rel="stylesheet" href="../bar.css" type="text/css" />
-		<style>
-			body {
-				background-image: url("../hntgrd/Kachel0.jpg");
-			}
-		</style>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://www.w3schools.com/lib/w3.js" ></script>
 	</head>
 	<body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="../search.html">Blinde Kuh API-Test</a>
-  <a href="#">> Videos &amp; Co.</a>
-  <!-- <a href="#">Geocaching</a> -->
-  <a href="../scratch.html">Zeugs</a>
-  <a href="https://www.github.com/libewa/libewa.github.io" >Den Quelltext ansehen und Fehler melden</a>
-</div>
-
-<div id="main">
-  <span id="bar" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; <!-- Open -->menu</span>
-</div>
-
-<script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-
-  document.body.style.backgroundColor = "white";
-}
-</script>
-
-
+		<div class="w3-top w3-bar w3-black">
+        <a href="../index.html" class="w3-bar-item w3-button">Start</a>
+        <a href="../scratch.html" class="w3-bar-item w3-button">Projekte</a>
+        <a href="../hello_world/index.html" class="w3-bar-item w3-button">Spielplatz</a>
+        <a href="../search.html" class="w3-bar-item w3-button">Blinde-Kuh-Suche</a>
+		<a href="https://www.github.com/libewa/libewa.github.io" class="w3-bar-item w3-button">Quelltext</a>
+		<div class="w3-dropdown-hover">
+			<button class="w3-button">Accounts <i class="fa fa-caret-down"></i></button>
+			<div class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
+			  <a href="scratch.mit.edu/users/minutix" class="w3-bar-item w3-button">Scratch</a>
+			  <a href="github.com/libewa" class="w3-bar-item w3-button">GitHub</a>
+			  <a href="https://www.geocaching.com/p/?guid=a1e59560-dcff-40ce-9fb0-057ff1a9f781" class="w3-bar-item w3-button">geocaching.com</a>
+    	</div>
+		<div id="shit" class="w3-content">
 		<h1>Meine erste Website</h1>
-		<link rel="sidebar" href="../bar.html" type="text.html" />
 		<i><a href="https://www.elgoog.im">Hier</a></i> geht es <strong>nicht</strong> zu Google!<sup>Sondern zu elgooG</sup> &#128514 <br>
 		<i><a href="https://www.noza.ma">Hier</a></i> geht es <strong>nicht</strong> zu Amazon!<sup>Sondern zu noza.mA</sup> &#128514 <br>
 		<blockquote cite="Friedrich Schiller">Sagen sie ihm, er könne mich im Arsche lecken!</blockquote>
@@ -87,4 +68,5 @@ function closeNav() {
 		<h3>Wise Guys — Deutsche Bahn</h3>
 		<iframe class="size" src="https://www.youtube.com/embed/wXjhszy2f9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p class="src">Quelle: <a href="https://www.youtube.com/watch?v=wXjhszy2f9w">YouTube, Wise Guys</a></p>
+	</body>
 </html>
