@@ -1,6 +1,10 @@
 .src {
 	font-size: 8px;
 }
+video {
+	width: 50%;
+	height: auto;
+}
 @media only screen and (max-width: 450px) {
 	div.size {
 		display: none
@@ -55,17 +59,22 @@
 	}
 }
 @media only screen and (max-width: 500px) {
-	#eios {
+	div.chonky {
 		display: none
 	}
 }
 @media only screen and (max-width: 500px) {
-	#eios_replace {
+	div.smol {
 		display: 100%
 	}
 }
 @media only screen and (min-width: 500px) {
-	#eios_replace {
+	div.smol {
 		display: none
+	}
+}
+@media only screen and (max-width: 500px) {
+	div.chonky {
+		display: 100%
 	}
 }
